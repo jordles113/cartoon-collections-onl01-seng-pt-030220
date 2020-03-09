@@ -4,7 +4,7 @@ collection = [0]
 while i < array.length 
 collection.push(yield[array[1])
 end 
-
+collection
 end
 
 def summon_captain_planet# code an argument here
