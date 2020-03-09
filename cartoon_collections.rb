@@ -32,5 +32,6 @@ def find_the_cheese(string_array)
   if array.find do |type|
     string_array.include?(type) 
   end 
+end 
  
-end
+
