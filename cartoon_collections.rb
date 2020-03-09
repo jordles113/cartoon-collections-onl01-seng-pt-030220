@@ -11,9 +11,7 @@ def summon_captain_planet(array)
   i = 0 
   new_array = []
   while i < array.length 
-  
-  new_array << array.map!{|name| name.capitalize} + "!"
-  
+  new_array.push(array[1)
   i += 1 
 end 
 new_array
