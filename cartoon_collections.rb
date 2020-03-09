@@ -3,6 +3,7 @@ def roll_call_dwarves(array)
   name_array.each_with_index do |name, order|
     name_array puts "#{order + 1}. #{name}.first.upcase"
   end 
+  return name_array
 end
 
 def summon_captain_planet# code an argument here
