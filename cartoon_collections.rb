@@ -12,7 +12,7 @@ def summon_captain_planet(array)
   new_array = []
   while i < array.length 
   
-  new_array << array.map!{|name| name.capitilze} + "!"
+  new_array << array.map!{|name| name.capitalize} + "!"
   
   i += 1 
 end 
