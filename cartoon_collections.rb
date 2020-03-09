@@ -12,7 +12,7 @@ def summon_captain_planet(array)
   new_array = []
   while i < array.length 
   
-  new_array.push()
+  new_array.push(array.map!{|name| name.capitilze} + "!")
 end
 
 def long_planeteer_calls# code an argument here
