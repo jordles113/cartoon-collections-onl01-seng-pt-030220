@@ -11,7 +11,7 @@ def summon_captain_planet(array)
   i = 0 
   new_array = []
   while i < array.length 
-  new_array.push(array[1)
+  new_array.push(array[i])
   i += 1 
 end 
 new_array
